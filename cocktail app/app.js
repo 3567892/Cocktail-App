@@ -6,7 +6,7 @@ const getInfo = () => {
     const userInput = document.getElementById('user-input').value.trim();
     console.log(data);
     if (!userInput){
-        result.innerHTML = `<h3 class="msg">The input field cannot be empty</h3>`;
+        result.innerHTML = `<h3 class="msg">No item was searched</h3>`;
         return;
     }
     else{
